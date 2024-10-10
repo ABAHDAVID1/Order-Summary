@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(pattern-background.svg), #E0E8FF;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 740px;
+    font-family: arial;
+}
+
+.box{
+    width: 380px;
+    height: 570px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.image{
+    width: 380px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 25px;
+}
+
+.paragraph{
+    font-size: 15px;
+    color: gray;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 15px;
+    color: gray;
+}
+
+.annual-plan{
+    background-color: #e0e8ff7e;
+    padding: 15px;
+    width: 320px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+button{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(40, 40, 191, 0.911);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 10px #E0E8FF;
+
+}
+
+.music-stat{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+a{
+    color: rgba(40, 40, 191, 0.911);
+    font-weight: bolder;
+}
+
+h3{
+    color: gray;
+    font-size: 18px;
+}
+
+h4{
+    margin-top: 30px;
+    color: gray;
+}
